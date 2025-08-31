@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('bg.png') no-repeat center center fixed;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; /* Optional: scale the image */
+  padding: 40px;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 0px;
+  max-width: 400px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+input[type="text"], input[type="file"] {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-btn {
+  background-color: #007bff;
+  justify-content: center;
+  margin-top: 10px;
+  
+}
+
+.dashboard-btn-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dashboard-btn:hover {
+  background-color: #0056b3;
+}
+.dashboard-btn-container a {
+  text-decoration: none;
+}
+
+.message {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: white;
+}
